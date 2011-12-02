@@ -9,8 +9,28 @@ For more on treaps, check out the following links:
 * [wikipedia](http://en.wikipedia.org/wiki/Treap)
 * [Treaps: The Magical Awesome BBT](http://pavpanchekha.com/programming/treap.html)
 
-This implementation borrows a lot of ideas from [GoLLRB](https://github.com/petar/GoLLRB)
-by Petar Maymounkov.
+This implementation borrows a lot of ideas from [GoLLRB](https://github.com/petar/GoLLRB).
+
+Installation
+------------
+
+Use `goinstall`:
+
+    goinstall github.com/stathat/treap
+
+That's it.
+
+If you are building your code with `goinstall`, you can skip the previous step and just
+import `treap` as follows:
+
+    import (
+            "github.com/stathat/treap"
+    )
+
+Usage
+-----
+
+Examples available at [www.stathat.com/src/treap](http://www.stathat.com/src/treap).
 
 Status
 ------
